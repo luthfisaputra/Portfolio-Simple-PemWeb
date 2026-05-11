@@ -158,3 +158,33 @@ nav a:hover {
     font-size: 2.2rem;
   }
 }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+
+.skill-card i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.skill-card p {
+  font-weight: 600;
+  font-size: 18px;
+}

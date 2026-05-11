@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -17,7 +22,7 @@
 
     <header class="navbar">
         <div class="container nav-content">
-            <h1 class="logo">Luthfi.</h1>
+            <h1 class="logo">Portofolio.</h1>
             <nav>
                 <a href="#about">Tentang</a>
                 <a href="#skills">Skill</a>
@@ -27,43 +32,66 @@
         </div>
     </header>
 
-  <section class="hero">
-        <div class="container hero-content">
-            <div>
-                <p class="tag">Halo, saya</p>
-                <h2>Luthfi Saputra</h2>
-                <p class="subtitle">
-                Mahasiswa Teknik Informatika yang suka belajar backend, teknologi, dan membangun website.
+    <section class="hero">
+            <div class="container hero-content">
+                <div>
+                    <p class="tag">Halo, saya</p>
+                    <h2>Luthfi Saputra</h2>
+                    <p class="subtitle">
+                    Mahasiswa Teknik Informatika yang suka belajar backend, teknologi, dan membangun website.
+                    </p>
+                    <a href="#contact" class="btn">Hubungi Saya</a>
+                </div>
+                <div class="hero-box">
+                    <img src="image/Photo_Formal.jpg" alt="Foto profil" />
+                </div>
+            </div>
+    </section>
+
+    <section id="about" class="section">
+            <div class="container">
+                <h3>Tentang Saya</h3>
+                <p>
+                    Saya sedang belajar web development dan backend Java. Saya suka memahami konsep dasar
+                    dengan cara yang sederhana lalu mempraktikkannya langsung ke dalam project kecil.
                 </p>
-                <a href="#contact" class="btn">Hubungi Saya</a>
             </div>
-            <div class="hero-box">
-                <img src="image/Photo_Formal.jpg" alt="Foto profil" />
-            </div>
-        </div>
-  </section>
+    </section>
 
-  <section id="about" class="section">
-        <div class="container">
-            <h3>Tentang Saya</h3>
-            <p>
-                Saya sedang belajar web development dan backend Java. Saya suka memahami konsep dasar
-                dengan cara yang sederhana lalu mempraktikkannya langsung ke dalam project kecil.
-            </p>
-        </div>
-  </section>
-
-  <section id="skills" class="section alt">
+    <section id="skills" class="section alt">
         <div class="container">
             <h3>Skill</h3>
-            <div class="grid">
-                <div class="card">HTML</div>
-                <div class="card">CSS</div>
-                <div class="card">Java Dasar</div>
-                <div class="card">Git</div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-java"></i>
+                    <p>Java</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <p>Git</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-github"></i>
+                    <p>GitHub</p>
+                </div>
+
             </div>
         </div>
-  </section>
+    </section>
 
   <section id="projects" class="section">
         <div class="container">
