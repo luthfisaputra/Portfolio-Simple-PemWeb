@@ -1,0 +1,27 @@
+{
+  "name": "tugasportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luthfisaputra/Portfolio-Simple-PemWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/luthfisaputra/Portfolio-Simple-PemWeb/issues"
+  },
+  "homepage": "https://github.com/luthfisaputra/Portfolio-Simple-PemWeb#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^3.4.17"
+  }
+}
